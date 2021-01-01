@@ -5,7 +5,9 @@
 
   .title {
     font-size: 2.9em;
-    margin-bottom: 1.2em;
+    font-family: 'Staatliches';
+    margin-bottom: 0.5em;
+    
   }
 
   .description {
@@ -14,7 +16,7 @@
   }
 
   .button {
-    font-family: "Comfortaa";
+    font-family: "Montserrat-Regular";
     margin-top: 2em;
     background: $accent;
     color: #FFFFFF;
