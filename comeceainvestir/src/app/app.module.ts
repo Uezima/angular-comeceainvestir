@@ -9,6 +9,7 @@ import { LandingLayoutComponent } from './layouts/landing/landing-layout.compone
 import { HeaderComponent } from './shared/components/header/header.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { BigTitleComponent } from './shared/components/big-title/big-title.component';
+import { InlineTopicComponent } from './shared/components/inline-topic/inline-topic.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { BigTitleComponent } from './shared/components/big-title/big-title.compo
     LandingLayoutComponent,
     HeaderComponent,
     FooterComponent,
-    BigTitleComponent
+    BigTitleComponent,
+    InlineTopicComponent
   ],
   imports: [
     BrowserModule,
