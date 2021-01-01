@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { BigTitle } from 'src/app/models/bit-title.models';
+import { InlineTopic } from 'src/app/models/inline-topic.model';
 
 @Component({
   selector: 'app-home',
@@ -16,4 +17,24 @@ export class HomeComponent {
     buttonAction: 'signin',
     buttonText: 'Clique aqui para começar!'
   }
+
+  inlineTopics: InlineTopic[] = [{
+      imageAlt: 'Desafio aceito!',
+      imageUrl: 'assets/pages/home/estrategia.png',
+      title: 'Desafio aceito!',
+      description: 'Escolha um desafio para participar e todos que entrarem recebem um valor fictício em suas carteiras'
+    },
+    {
+      imageAlt: 'Em grego strateegia',
+      imageUrl: 'assets/pages/home/analise.png',
+      title: 'Em grego strateegia',
+      description: 'Durante o desafio simule compras e vendas de ativos em nosso homebroker simulado, que acompanha dados reais das ações'
+    },
+    {
+      imageAlt: 'Playstation! Playstation!',
+      imageUrl: 'assets/pages/home/comemoracao.png',
+      title: 'Playstation! Playstation!',
+      description: 'Ao término do desafio, a pessoa que obtiver o maior valor em sua carteira fictícia ganhará o prêmio do desafio'
+    }
+  ]
 }
