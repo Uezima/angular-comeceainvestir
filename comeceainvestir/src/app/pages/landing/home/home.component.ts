@@ -12,7 +12,7 @@ export class HomeComponent {
     imageAlt: 'Desenho de um astronauta com moedas e notas de dinheiro ao redor dele no espaço',
     imageAnimation: 'floating',
     title: 'Treine seu lado investidor concorrendo a prêmios!',
-    subtitle: 'Simule investimentos na bolsa de valores em uma competição divertida onde aquele que fizer as melhores escolhas ganhará um prêmio!',
+    subtitle: 'Simule investimentos na bolsa de valores em uma competição divertida onde aquele que faz as melhores escolhas ganha prêmios!',
     buttonAction: 'signin',
     buttonText: 'Clique aqui para começar!'
   }
