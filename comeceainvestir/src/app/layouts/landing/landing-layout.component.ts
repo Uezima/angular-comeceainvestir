@@ -4,4 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-landingpage-layout',
   templateUrl: './landing-layout.component.html'
 })
-export class LandingLayoutComponent { }
+export class LandingLayoutComponent { 
+  title = 'Comece a investir!';
+}
