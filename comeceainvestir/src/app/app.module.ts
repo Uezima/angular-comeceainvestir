@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/landing/home/home.component';
 import { LandingRoutingModule } from './pages/landing/landing-routing.module';
 import { LandingLayoutComponent } from './layouts/landing/landing-layout.component';
+import { HeaderComponent } from './shared/components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    LandingLayoutComponent
+    LandingLayoutComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
